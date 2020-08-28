@@ -8,4 +8,4 @@ The task is to categorize each face based on the emotion shown in the facial exp
 <br>
 The data on [Kaggle](https://www.kaggle.com/msambare/fer2013) comprises of *2* folder (*train and test*) each of which has futher *7* folders ( *Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral*) which contains the images in *jpg* file format.<br>
 <br>
-The data was initially converted to *csv files* using **code**.<br>
+The data was initially converted to *csv files* using [Image Uploader](https://github.com/dochimekashiariri/Facial-Expression-Recognition/blob/master/Data/data_uploading.ipynb).<br>
