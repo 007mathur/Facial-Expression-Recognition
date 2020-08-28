@@ -1,7 +1,7 @@
-# Facial-Expression-Recognition
+# Facial Expression Recognition
 A human facial emotional detector.<br>
 <br>
-# Data 
+## Data 
 Here's the data we're going to process to train and test our models.<br>
 The data is [FER-2013](https://www.kaggle.com/msambare/fer2013) from Kaggle.
 <br>
