@@ -13,3 +13,9 @@ The data on [Kaggle](https://www.kaggle.com/msambare/fer2013) comprises of *2* f
 <br>
 Before starting making the model, first upload the data into *csv files* using [Data Uploading Code](https://github.com/dochimekashiariri/Facial-Expression-Recognition/blob/master/data_uploading.ipynb)<br>
 <br>
+## Summary
+| Model                                   |      Accuracy after 50 epoches     | Loss after 50 epoches |
+| :-------------------------------------: | :--------------------------------: | :-------------------: |
+| ....................................... | .................................. | ..................... |
+|Convolutional Neural Network (CNN)       | 61.298%                            | 1.14859               |
+|Residual Neural Network (ResNet)         | 61.033%                            | 1.03836               |
