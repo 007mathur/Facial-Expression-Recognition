@@ -16,6 +16,5 @@ Before starting making the model, first upload the data into *csv files* using [
 ## Summary
 | Model                                   |      Accuracy after 50 epoches     | Loss after 50 epoches |
 | :-------------------------------------: | :--------------------------------: | :-------------------: |
-| ....................................... | .................................. | ..................... |
 |Convolutional Neural Network (CNN)       | 61.298%                            | 1.14859               |
 |Residual Neural Network (ResNet)         | 61.033%                            | 1.03836               |
