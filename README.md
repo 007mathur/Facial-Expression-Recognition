@@ -10,7 +10,6 @@ The data consists of 48x48 pixel grayscale images of faces. The faces have been 
 The task is to categorize each face based on the emotion shown in the facial expression into one of seven categories (*0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral*). The training set consists of **28,709 examples** and the public test set consists of **3,589 examples**.
 <br>
 The data on [Kaggle](https://www.kaggle.com/msambare/fer2013) comprises of *2* folder (*train and test*) each of which has futher *7* folders ( *Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral*) which contains the images in *jpg* file format.<br>
-<br>
 The distribution of images per category was:<br>
 <table>
   <tr>
@@ -47,9 +46,7 @@ The distribution of images per category was:<br>
     <td>7178</td>
   </tr>
 </table>
-
-<br>
-As you can see the data of **Disgust** was very less as compared to the categories and that of Happy was very large. So, I perform image rotation **data augmentation** operations to increase the data of digust. After the operation the Data Stats were:
+As you can see the data of **Disgust** was very less as compared to the categories and that of Happy was very large. So, I perform image rotation **data augmentation** operations to increase the data of digust. After the operation the Data Stats were:<br>
 <br>
 <table>
   <tr>
@@ -87,7 +84,6 @@ As you can see the data of **Disgust** was very less as compared to the categori
   </tr>
 </table>
 <br>
-<br>
 Before starting making the model, first upload the data into *csv files* using [Data Uploading Code](https://github.com/dochimekashiariri/Facial-Expression-Recognition/blob/master/data_uploading.ipynb)<br>
 <br>
 ## Results
@@ -108,7 +104,3 @@ Before starting making the model, first upload the data into *csv files* using [
     <td>1.28889</td>
   </tr>
 </table>
-| Model                                   |      Accuracy after 60 epoches     | Loss after 60 epoches |
-| :-------------------------------------: | :--------------------------------: | :-------------------: |
-|Convolutional Neural Network (CNN)       | 63.806%                            | 0.99006               |
-|Residual Neural Network (ResNet)         | 63.597%                            | 1.28889               |
