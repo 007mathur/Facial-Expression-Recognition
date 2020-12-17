@@ -83,9 +83,7 @@ As you can see the data of **Disgust** was very less as compared to the categori
     <td><b>7178</b></td>
   </tr>
 </table>
-<br>
 Before starting making the model, first upload the data into *csv files* using [Data Uploading Code](https://github.com/dochimekashiariri/Facial-Expression-Recognition/blob/master/data_uploading.ipynb)<br>
-<br>
 <h2>Results</h2>
 <table>
   <tr>
