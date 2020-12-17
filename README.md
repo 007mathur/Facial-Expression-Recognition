@@ -16,6 +16,7 @@ The distribution of images per category was:
 | :-------: | :------: | :--: | :---: | :-----: | :--: | :-----: | :---: | :---: |
 | Train     | 3171     | 4097 | 3995  | 4965    | 4830 | 436     | 7215  | 28709 |
 | Test      | 831      | 1024 | 958   | 1233    | 1247 | 111     | 1774  | 7178  |
+<br>
 As you can see the data of **Disgust** was very less as compared to the categories and that of Happy was very large. So, I perform image rotation **data augmentation** operations to increase the data of digust. After the operation the Data Stats were:
 <br>
 | Data Type | Surprise | Fear | Angry | Neutral | Sad  | **Disgust** | Happy | **Total** |
