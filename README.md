@@ -11,23 +11,103 @@ The task is to categorize each face based on the emotion shown in the facial exp
 <br>
 The data on [Kaggle](https://www.kaggle.com/msambare/fer2013) comprises of *2* folder (*train and test*) each of which has futher *7* folders ( *Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral*) which contains the images in *jpg* file format.<br>
 <br>
-The distribution of images per category was:
-| Data Type | Surprise | Fear | Angry | Neutral | Sad  | Disgust | Happy | Total |
-| :-------: | :------: | :--: | :---: | :-----: | :--: | :-----: | :---: | :---: |
-| Train     | 3171     | 4097 | 3995  | 4965    | 4830 | 436     | 7215  | 28709 |
-| Test      | 831      | 1024 | 958   | 1233    | 1247 | 111     | 1774  | 7178  |
+The distribution of images per category was:<br>
+<table>
+  <tr>
+    <th>Data Type</th>
+    <th>Surprise</th>
+    <th>Fear</th>
+    <th>Angry </th>
+    <th>Neutral</th>
+    <th>Sad</th>
+    <th>Disgust</th>
+    <th>Happy</th>
+    <th>Total</th>
+  </tr>
+  <tr>
+    <td>Train</td>
+    <td>3171</td>
+    <td>4097</td>
+    <td>3995</td>
+    <td>4965</td>
+    <td>4830</td>
+    <td>436</td>
+    <td>7215</td>
+    <td>28709</td>
+  </tr>
+  <tr>
+    <td>Test</td>
+    <td>831</td>
+    <td>1024</td>
+    <td>958</td>
+    <td>1233</td>
+    <td>1247</td>
+    <td>111</td>
+    <td>1774</td>
+    <td>7178</td>
+  </tr>
+</table>
+
 <br>
 As you can see the data of **Disgust** was very less as compared to the categories and that of Happy was very large. So, I perform image rotation **data augmentation** operations to increase the data of digust. After the operation the Data Stats were:
 <br>
-| Data Type | Surprise | Fear | Angry | Neutral | Sad  | **Disgust** | Happy | **Total** |
-| :-------: | :------: | :--: | :---: | :-----: | :--: | :---------: | :---: | :-------: |
-| Train     | 3171     | 4097 | 3995  | 4965    | 4830 | **3171**    | 7215  | **31444** |
-| Test      | 831      | 1024 | 958   | 1233    | 1247 | **111**     | 1774  | **7178**  |
+<table>
+  <tr>
+    <th>Data Type</th>
+    <th>Surprise</th>
+    <th>Fear</th>
+    <th>Angry </th>
+    <th>Neutral</th>
+    <th>Sad</th>
+    <th><b>Disgust</b></th>
+    <th>Happy</th>
+    <th>Total</th>
+  </tr>
+  <tr>
+    <td>Train</td>
+    <td>3171</td>
+    <td>4097</td>
+    <td>3995</td>
+    <td>4965</td>
+    <td>4830</td>
+    <td><b>3171</b></td>
+    <td>7215</td>
+    <td><b>31444</b></td>
+  </tr>
+  <tr>
+    <td>Test</td>
+    <td>831</td>
+    <td>1024</td>
+    <td>958</td>
+    <td>1233</td>
+    <td>1247</td>
+    <td><b>111</b></td>
+    <td>1774</td>
+    <td><b>7178</b></td>
+  </tr>
+</table>
 <br>
 <br>
 Before starting making the model, first upload the data into *csv files* using [Data Uploading Code](https://github.com/dochimekashiariri/Facial-Expression-Recognition/blob/master/data_uploading.ipynb)<br>
 <br>
-## Summary
+## Results
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Accuracy after 60 epoches</th>
+    <th>Loss after 60 epoches</th>
+  </tr>
+  <tr>
+    <td>Convolutional Neural Networks</td>
+    <td>63.806%</td>
+    <td>0.99006</td>
+  </tr>
+  <tr>
+    <td>Residual Neural Networks</td>
+    <td>63.597%</td>
+    <td>1.28889</td>
+  </tr>
+</table>
 | Model                                   |      Accuracy after 60 epoches     | Loss after 60 epoches |
 | :-------------------------------------: | :--------------------------------: | :-------------------: |
 |Convolutional Neural Network (CNN)       | 63.806%                            | 0.99006               |
