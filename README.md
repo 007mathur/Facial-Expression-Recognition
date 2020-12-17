@@ -46,7 +46,7 @@ The distribution of images per category was:<br>
     <td>7178</td>
   </tr>
 </table>
-As you can see the data of **Disgust** was very less as compared to the categories and that of Happy was very large. So, I perform image rotation **data augmentation** operations to increase the data of digust. After the operation the Data Stats were:<br>
+As you can see the data of <b>Disgust</b> was very less as compared to the categories and that of Happy was very large. So, I perform image rotation <b>data augmentation</b> operations to increase the data of digust. After the operation the Data Stats were:<br>
 <br>
 <table>
   <tr>
@@ -83,7 +83,7 @@ As you can see the data of **Disgust** was very less as compared to the categori
     <td><b>7178</b></td>
   </tr>
 </table>
-Before starting making the model, first upload the data into *csv files* using <a href="https://github.com/dochimekashiariri/Facial-Expression-Recognition/blob/master/data_uploading.ipynb">Data Uploading Code</a><br>
+Before starting making the model, first upload the data into <i>csv files</i> using <a href="https://github.com/dochimekashiariri/Facial-Expression-Recognition/blob/master/data_uploading.ipynb">Data Uploading Code</a><br>
 <h2>Results</h2>
 <table>
   <tr>
